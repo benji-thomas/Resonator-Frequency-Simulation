@@ -222,3 +222,6 @@ __marimo__/
 
 #Data Files
 *.csv
+
+#Photo Files
+*.png
