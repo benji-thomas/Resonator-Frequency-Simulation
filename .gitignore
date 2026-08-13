@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#GDS files
+*.gds
+
+#Data Files
+*.csv
+
+#Photo Files
+*.png
+
+#Layer Maps
+*.map
