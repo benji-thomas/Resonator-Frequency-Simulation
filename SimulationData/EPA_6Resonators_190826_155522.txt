@@ -1,0 +1,32 @@
+------------
+ 
+nbPoints     : 45239
+nbTetrahedra : 233283
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(F)/F             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+!! WARNING : There may be more modes in the band than the number of modes (10) specified in the options. 
+             To obtain all modes in the band, narrow the frequency band or increase the number of modes.
+     1               |  233283    00:03:19.2  00:03:09.0   |     1488074    19.396     00:03:16.1  00:42:02.0         /                eig                                
+     2               |  272425    00:00:34.5  00:00:33.9   |     1734932    22.341     00:03:13.5  00:33:27.9    0.1755 [->0.0300]     eig                                
+     3               |  316322    00:00:43.4  00:00:42.9   |     2012918    26.274     00:03:00.1  00:37:11.6    0.0929 [->0.0300]     eig                                
+     4               |  367433    00:00:54.1  00:00:53.5   |     2337156    31.555     00:04:35.1  00:47:25.2    0.0293 [->0.0300]     eig                                
+   
+   
+          Eigenfrequency            Q value
+          --------------            -------
+    1.       2.55966 GHz       4.815220e+02
+    2.       4.16232 GHz       2.570972e+02
+    3.       4.43395 GHz       2.418078e+02
+    4.       4.64571 GHz       2.304122e+02
+    5.       4.68033 GHz       2.289281e+02
+    6.       4.70081 GHz       6.744519e+02
+    7.       5.17969 GHz       2.598809e+02
+    8.       5.38544 GHz       4.523910e+02
+    9.       5.56583 GHz       1.926486e+02
+   10.       6.20619 GHz       1.732891e+02
+   
+   
